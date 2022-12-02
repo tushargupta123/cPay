@@ -61,11 +61,12 @@ window.onload = function () {
 function verifyFunc() {
   const email = document.getElementById('email').value;
   const tag = document.getElementById('tag').value;
+  const check = document.getElementById("checking").checked;
   const data = JSON.stringify({
     "email": String(email),
     "tag": String(tag)
   })
-  fetch("https://www.flitchcoin.com/api/book/tag", {
+  if (check) {  fetch("https://www.flitchcoin.com/api/book/tag", {
     method: "POST",
     headers: {
       "Accept": "application/json",
@@ -80,5 +81,7 @@ function verifyFunc() {
       }))
     .catch((err) => {
       console.log(err);
-    });
-};
+    });}
+    
+  }
+
