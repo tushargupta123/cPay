@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- animate.css link -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- tailwind css -->
+    <!-- tailwind css config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#484848',
+                        secondary: '#525252'
+                    },
+                    fontFamily: {
+                        lato: ["Lato", "sans-serif", "Arial"],
+                        libre: ['Libre Franklin', "sans-serif"],
+                        salsa: ['Salsa', 'cursive', "sans-serif"]
+                    },
+                },
+            },
+        };
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="flex flex-col justify-between text-libre ">
+        <!-- header -->
+        <div class="shadow top-0 bg-[rgba(189,189,189,0.11)] header sticky z-50 ">
+            <div class="max-w-7xl mx-auto px-3 flex justify-between py-2 ">
+                <a href="./index.html"><img src="./assets/logo.png" class="w-24" alt="logo"/></a>
+                <!-- <button
+          class="bg-gradient-to-r to-[#F5F5F5] via-[#E96BF5] from-[#0D11B4] px-8 py-1 rounded-full font-lato font-extrabold">
+          Sign in
+        </button> -->
+            </div>
+        </div>
+        <!-- content start -->
+        <section class="n1g">
+            <div class="max-w-7xl mx-auto px-2 py-8 flex flex-col items-center gap-20 wow fadeInLeft" data-wow-duration="2.5s">
+                <img src="./assets/prebook.svg" alt="prebook">
+                <img src="./assets/prebook-card.svg" class="w-full md:w-10/12" alt="prebook-card">
+                <div class="text-white text-xl md:text-lg flex flex-col items-center  wow fadeInLeft" data-wow-duration="2.5s">
+                    <p>We believe in Novelty, hence we pioneered newer techniques driven by innovation through our
+                        system and consequently proposed a methodology which would be an excellent performer over all
+                        courses of crypto payments.</p>
+                    <div class="py-10 flex flex-col gap-5 items-end">
+                        <div class="flex flex-wrap gap-3 md:gap-10 items-center justify-between overflow-hidden">
+                            <label for="email" class="font-semibold w-full md:contents">Email :</label>
+                            <div class="p-1 rounded-full bg-gradient-to-b from-[#0D11B4] to-[#FDE8FF]">
+                                <input id="email" name="email" type="text"
+                                    class="rounded-3xl n1g px-4 py-2 w-full md:w-96">
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-3 md:gap-10 items-center justify-between overflow-hidden">
+                            <label for="tag" class="font-semibold w-full md:contents">Tag :</label>
+                            <div class="p-1 rounded-full bg-gradient-to-b from-[#0D11B4] to-[#FDE8FF]">
+                                <input id="tag" name="tag" type="text"
+                                    class="rounded-3xl n1g px-4 py-2 w-full md:w-96">
+                            </div>
+                        </div>
+                        <div class="w-full md:w-96 flex gap-3 justify-end items-start">
+                            <input type="checkbox" class="border-2 border-[#2898FF] mt-1 p-3" name="" id="">
+                            <label for="" class="text-sm">By checking this I wish to proceed by accepting the terms and
+                                condition by c-pay.xyz</label>
+                        </div>
+                        <div class="w-full inline-flex justify-center">
+                            <!-- <button class="getnow-btn flex gap-4 justify-center items-center px-12 py-4 ">
+                                <p class="capitalize font-bold">Get now</p>
+                                <span><img src="./assets/verify.svg" alt=""></span>
+                            </button> -->
+                            <button class="btn btn1 py-4 px-8" onclick="verifyFunc()">
+                                <span class="title font-extrabold">Verify</span>
+                                <span class="icon">
+                                    <img src="./assets/verify.svg" alt="">
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- content end -->
+        <!-- footer -->
+        <footer>
+      <div class="py-10 font-lato text-white n1f">
+        <div class="max-w-7xl mx-auto px-3 grid grid-cols-12">
+          <section class="col-span-12 md:col-span-4 flex flex-col px-3 my-4 wow fadeInLeft" data-wow-duration="2.5s">
+            <p class="text-white font-labre font-extrabold text-4xl md:text-5xl lg:text-6xl py-4wow fadeInLeft" data-wow-duration="2.5s">C-PAY</p>
+            <div class="flex flex-col justify-center md:h-full">
+              <p class="text-sm text-grey pr-3 wow fadeInLeft" data-wow-duration="2.5s">C-pay is a payment solutions provider that seamlessly connects fiat and
+                crypto economies for global consumers, merchants, developers, and institutions.
+              </p>
+            </div>
+          </section>
+          <!-- pages -->
+          <section class="col-span-6 md:col-span-2 font-light text-xs tracking-[0.25em] flex flex-col my-4 wow fadeInLeft"  data-wow-duration="2.5s">
+            <p class="text-black font-bold md:font-normal mt-2 mb-5 md:mb-10 lg:mb-16">Pages</p>
+            <ul class="flex flex-col justify-center md:h-full gap-5 ml-3 md:ml-5 lg:ml-10">
+              <li class="flex gap-3 items-center"><img src="./assets/icon/home.svg" alt="" srcset="">
+                <p>Home</p>
+              </li>
+              <li class="flex gap-3 items-center"><img src="./assets/icon/about.svg" alt="" srcset="">
+                <p>About</p>
+              </li>
+              <li class="flex gap-3 items-center"><img src="./assets/icon/contact.svg" alt="" srcset="">
+                <p>Contact Us</p>
+              </li>
+            </ul>
+          </section>
+          <!-- solutions -->
+          <section class="col-span-6 md:col-span-3 font-light text-xs tracking-[0.25em] flex flex-col my-4">
+            <div class="wow fadeInLeft"  data-wow-duration="2.5s">
+              <p class="text-black font-bold md:font-normal mt-2 mb-5 md:mb-10 lg:mb-16">Solutions</p>
+            </div>
+            <div class="flex flex-col justify-center md:h-full wow fadeInLeft"  data-wow-duration="2.5s">
+              <p class="">Crypto Payment Acceptance Fiat Payment Rails Crypto Ramps White Label Crypto-Linked Cards
+              </p>
+            </div>
+          </section>
+          <!-- social -->
+          <section class="col-span-3 font-light text-xs tracking-[0.25em] flex flex-col my-4 wow fadeInLeft"  data-wow-duration="2.5s">
+            <p class="text-black font-bold md:font-normal mt-2 mb-5 md:mb-10 lg:mb-16">Pages</p>
+            <ul class="flex flex-col justify-center md:h-full gap-2 ml-3 md:ml-5 lg:ml-10">
+              <li class="flex gap-3 items-center"><img src="./assets/icon/mail.svg" alt="" srcset="">
+                <p>Mail</p>
+              </li>
+              <li class="flex gap-3 items-center"><img src="./assets/icon/twitter.svg" alt="" srcset="">
+                <p>Twitter</p>
+              </li>
+              <li class="flex gap-3 items-center"><img src="./assets/icon/instagram.svg" alt="" srcset="">
+                <p>Instagram</p>
+              </li>
+              <li class="flex gap-3 items-center"><img src="./assets/icon/youtube.svg" alt="" srcset="">
+                <p>Youtube</p>
+              </li>
+              <li class="flex gap-3 items-center"><img src="./assets/icon/linkedin.svg" alt="" srcset="">
+                <p>Linkedin</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="h-[2px] bg-white"></div>
+      <div class="bg-black opacity-[1] py-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-2 gap-3 text-white font-lato font-light">
+          <div class="col-span-2 md:col-span-1 text-xs md:text-sm">
+            <p class="text-center md:text-left">Copyright C-Pay © 2022. All rights reserved.</p>
+          </div>
+          <div class="col-span-2 md:col-span-1 flex justify-center md:justify-end gap-5 text-xs wow fadeInLeft"  data-wow-duration="2.5s">
+            <button>Terms of Use</button>
+            <button>Privacy Policy</button>
+            <button>© 2022 C-Pay</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
+    <!-- wow js initialize -->
+    <script src="./js/index.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,626 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+.buttons {
+    margin: 10%;
+    text-align: center;
+  }
+
+  .btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    /* margin: 20px; */
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .btn-hover:focus {
+    outline: none;
+  }
+
+  .btn-hover.color-1 {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #40e495,
+      #30dd8a,
+      #2bb673
+    );
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  }
+  .btn-hover.color-2 {
+    background-image: linear-gradient(
+      to right,
+      #f5ce62,
+      #e43603,
+      #fa7199,
+      #e85a19
+    );
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+  }
+  .btn-hover.color-3 {
+    background-image: linear-gradient(
+      to right,
+      #667eea,
+      #764ba2,
+      #6b8dd6,
+      #8e37d7
+    );
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  }
+  .btn-hover.color-4 {
+    background-image: linear-gradient(
+      to right,
+      #fc6076,
+      #ff9a44,
+      #ef9d43,
+      #e75516
+    );
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+  }
+  .btn-hover.color-5 {
+    background-image: linear-gradient(
+      to right,
+      #0ba360,
+      #3cba92,
+      #30dd8a,
+      #2bb673
+    );
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+  }
+  .btn-hover.color-6 {
+    background-image: linear-gradient(
+      to right,
+      #000000,
+      #767676,
+      #00520b,
+      #f6ff00
+    );
+    box-shadow: 0 px 15px 0 rgba(9, 9, 9, 0.75);
+  }
+  .btn-hover.color-7 {
+    background-image: linear-gradient(
+      to right,
+      #6253e1,
+      #852d91,
+      #a3a1ff,
+      #f24645
+    );
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  }
+  .btn-hover.color-8 {
+    background-image: linear-gradient(
+      to right,
+      #29323c,
+      #485563,
+      #2b5876,
+      #4e4376
+    );
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.75);
+  }
+  .btn-hover.color-9 {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed
+    );
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  }
+  .btn-hover.color-10 {
+    background-image: linear-gradient(
+      to right,
+      #ed6ea0,
+      #ec8c69,
+      #f7186a,
+      #fbb03b
+    );
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+  }
+  .btn-hover.color-11 {
+    background-image: linear-gradient(
+      to right,
+      #eb3941,
+      #f15e64,
+      #e14e53,
+      #e2373f
+    );
+    box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    /* margin: 20px; */
+    padding: 8px 30px;
+    width: 187px;
+    font-family: "montserrat", sans-serif;
+    font-size: 20.5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 200%;
+    transition: 0.6s;
+    box-shadow: 0px 5px 9px 1px rgb(0 0 0 / 25%);
+  }
+
+  .sign-in {
+    display: flex;
+    align-items: center;
+    border: none;
+    /* margin: 20px; */
+    padding: 8px 30px;
+    font-family: "montserrat", sans-serif;
+    font-size: 20.5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #000;
+    background-size: 200%;
+    transition: 0.6s;
+    box-shadow: 0px 5px 9px 1px rgb(0 0 0 / 25%);
+  }
+  /* #F5F5F5 #E96BF5 #0D11B4 */
+
+  .btn1 {
+    background-image: linear-gradient(to left, #f5f5f5, #e96bf5, #0d11b4);
+  }
+  .btn:hover {
+    background-position: right;
+  }
+  /* .btn:hover .title {
+    color: #000000;
+  } */
+
+  .btn .title {
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .btn .icon img {
+    width: 28px;
+  }
+
+  .text-grad{
+    background: linear-gradient(180deg, #FFFFFF 0%, #E96BF5 0.01%, #0D11B4 60.42%, #0D11B4 94.27%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  .header{
+    backdrop-filter: blur(15.5px);
+    border-radius: 0px 0px;
+  }
+  .payment {
+    background: linear-gradient(259.15deg, #4B0D3A -13%, #000000 49.11%, #000000 87.65%);
+    border-radius: 1px;
+  }
+
+
+  .animate-bg {
+    background: linear-gradient(90deg, #000000, #000000, #6e1356);
+    background-size: 150% 900%;
+
+    -webkit-animation: AnimationName 1.5s ease infinite;
+    -moz-animation: AnimationName 1.5s ease infinite;
+    animation: AnimationName 1.5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+
+.card {
+  background: linear-gradient(80deg, #0D11B4, #E96BF5 , #ffffff);
+  background-size: 120% 350%;
+
+  -webkit-animation: cardAnimate 4s ease infinite;
+  -moz-animation: cardAnimate 4s ease infinite;
+  -o-animation: cardAnimate 4s ease infinite;
+  animation: cardAnimate 4s ease infinite;
+}
+
+@-webkit-keyframes cardAnimate {
+  0%{background-position:88% 0%}
+  50%{background-position:13% 100%}
+  100%{background-position:88% 0%}
+}
+@-moz-keyframes cardAnimate {
+  0%{background-position:88% 0%}
+  50%{background-position:13% 100%}
+  100%{background-position:88% 0%}
+}
+@-o-keyframes cardAnimate {
+  0%{background-position:88% 0%}
+  50%{background-position:13% 100%}
+  100%{background-position:88% 0%}
+}
+@keyframes cardAnimate {
+  0%{background-position:88% 0%}
+  50%{background-position:13% 100%}
+  100%{background-position:88% 0%}
+}
+
+.problem {
+  background: linear-gradient(90deg, #5768ff, #e66df0, #ffffff);
+  background-size: 120% 900%;
+
+  -webkit-animation: problemAnimate 6s ease infinite;
+  -moz-animation: problemAnimate 6s ease infinite;
+  -o-animation: problemAnimate 6s ease infinite;
+  animation: problemAnimate 6s ease infinite;
+}
+
+@-webkit-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-o-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+.n1a {
+  background: linear-gradient(90deg,#d1d5ff, #fcdcff, #ffffff);
+  background-size: 120% 900%;
+
+  -webkit-animation: problemAnimate 6s ease infinite;
+  -moz-animation: problemAnimate 6s ease infinite;
+  -o-animation: problemAnimate 6s ease infini6
+  animation: problemAnimate 6s ease infinite;
+}
+
+@-webkit-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-o-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+.n1b {
+  background: linear-gradient(90deg, #3500CC, #fff);
+  background-size: 120% 900%;
+
+  -webkit-animation: problemAnimate 6s ease infinite;
+  -moz-animation: problemAnimate 6s ease infinite;
+  -o-animation: problemAnimate 6s ease infinite;
+  animation: problemAnimate 6s ease infinite;
+}
+
+@-webkit-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-o-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+.n1c {
+  background: linear-gradient(90deg, #69219c, rgb(0, 0, 0), rgb(0, 0, 0));
+  background-size: 120% 900%;
+
+  -webkit-animation: problemAnimate 1.5s ease infinite;
+  -moz-animation: problemAnimate 1.5s ease infinite;
+  -o-animation: problemAnimate 1.5s ease infinite;
+  animation: problemAnimate 1.5s ease infinite;
+}
+
+@-webkit-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-o-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+.n1d {
+  background: linear-gradient(90deg, #d1d5ff, #fcdcff, #ffffff);
+  background-size: 120% 900%;
+
+  -webkit-animation: problemAnimate 6s ease infinite;
+  -moz-animation: problemAnimate 6s ease infinite;
+  -o-animation: problemAnimate 6s ease infinite;
+  animation: problemAnimate 6s ease infinite;
+}
+
+@-webkit-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-o-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+.n1e {
+  background: linear-gradient(90deg, #ffffff, #f8a9ff, #ffffff);
+  background-size: 170% 1200%;
+
+  -webkit-animation: problemAnimate 3s ease infinite;
+  -moz-animation: problemAnimate 3s ease infinite;
+  -o-animation: problemAnimate 3s ease infinite;
+  animation: problemAnimate 3s ease infinite;
+}
+
+@-webkit-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-o-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+.n1f {
+  background: linear-gradient(120deg, #6e1356, #000000, #000000);
+  background-size: 140% 900%;
+
+  -webkit-animation: problemAnimate 2s ease infinite;
+  -moz-animation: problemAnimate 2s ease infinite;
+  -o-animation: problemAnimate 2s ease infinite;
+  animation: problemAnimate 2s ease infinite;
+}
+
+@-webkit-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-o-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+.n1g {
+  background: linear-gradient(90deg, #000000, #6e1356, #000000);
+  background-size: 170% 900%;
+
+  -webkit-animation: problemAnimate 4s ease infinite;
+  -moz-animation: problemAnimate 4s ease infinite;
+  -o-animation: problemAnimate 4s ease infinite;
+  animation: problemAnimate 4s ease infinite;
+}
+
+@-webkit-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-moz-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@-o-keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes problemAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+
+.dynamic-text{
+  height: 32px;
+  overflow: hidden;
+}
+
+.dynamic-text li{
+  list-style: none;
+  position: relative;
+  top: 0;
+  animation: slide 6s steps(2) infinite;
+}
+
+@keyframes slide {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.5;
+    top: -70px;
+  }
+}
+
+.bg-prebook {
+  background: linear-gradient(219.54deg, #4b0d3a00 2.67%, #00000000 96.64%);
+  border-radius: 1px;
+}
+
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* Styling checkbox */
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  border-width: 3px;
+  border-color: #2898ff;
+  background-color: #fff;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #2898ff;
+}
+
+.getnow-btn {
+  background: linear-gradient(
+    89.69deg,
+    #f5f5f5 -3.24%,
+    #e96bf5 54.1%,
+    #0d11b4 102.61%
+  );
+  border-radius: 70px;
+}
+
+/* _______________________________________________________________________________ */
+
+
+nav {
+  width: 100%;
+  height: 50px;
+  background: rgba(0,0,0, .8);
+  border-top: 1px solid rgba(255,255,255, .2);
+  border-bottom: 1px solid rgba(255,255,255, .2);
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0 100px;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px; /**  Rarely used! **/
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: #f00;
+  
+} 
+
+
