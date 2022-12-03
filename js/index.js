@@ -66,7 +66,7 @@ function verifyFunc() {
     "email": String(email),
     "tag": String(tag)
   })
-  if (check) {  fetch("https://www.flitchcoin.com/api/book/tag", {
+ fetch("https://www.flitchcoin.com/api/book/tag", {
     method: "POST",
     headers: {
       "Accept": "application/json",
@@ -83,5 +83,5 @@ function verifyFunc() {
       console.log(err);
     });}
     
-  }
+  
 
