@@ -614,3 +614,52 @@ input[type="checkbox"]:checked {
   );
   border-radius: 70px;
 }
+
+.tnc{
+  text-decoration: underline;
+  color: #2898ff;
+  text-decoration-color: #2898ff !important;
+}
+
+
+/* _______________________________________________________________________________ */
+
+
+nav {
+  width: 100%;
+  height: 50px;
+  background: rgba(0,0,0, .8);
+  border-top: 1px solid rgba(255,255,255, .2);
+  border-bottom: 1px solid rgba(255,255,255, .2);
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0 100px;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px; /**  Rarely used! **/
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background: #f00;
+  
+} 
+
+
