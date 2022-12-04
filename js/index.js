@@ -24,7 +24,7 @@ TxtType.prototype.tick = function () {
   var delta = 200 - Math.random() * 100;
 
   if (this.isDeleting) {
-    delta /= 5;
+    delta /= 2;
   }
 
   if (!this.isDeleting && this.txt === fullTxt) {
