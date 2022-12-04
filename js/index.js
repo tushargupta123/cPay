@@ -24,7 +24,7 @@ TxtType.prototype.tick = function () {
   var delta = 200 - Math.random() * 100;
 
   if (this.isDeleting) {
-    delta /= 2;
+    delta /= 3;
   }
 
   if (!this.isDeleting && this.txt === fullTxt) {
@@ -33,7 +33,7 @@ TxtType.prototype.tick = function () {
   } else if (this.isDeleting && this.txt === "") {
     this.isDeleting = false;
     this.loopNum++;
-    delta = 500;
+    delta = 300;
   }
 
   setTimeout(function () {
