@@ -249,7 +249,7 @@
 }
 
 .card {
-  background: linear-gradient(80deg, #0D11B4, #E96BF5 , #ffffff);
+  background: linear-gradient(90deg, #0D11B4, #E96BF5 , #ffffff);
   background-size: 120% 350%;
 
   -webkit-animation: cardAnimate 4s ease infinite;
